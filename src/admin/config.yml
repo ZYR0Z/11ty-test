@@ -72,12 +72,11 @@ collections:
           - label: Url
             name: url
             widget: string
-          - label: Meta Tags 
-            name: meta_tags 
+          - label: Meta Tags
+            name: meta_tags
             widget: list
             allow_add: true
-            collapsed: true 
-            fields: 
-              - { label: Name, name: text, widget: string},
-              - { label: Meta Code, name: meta_code, widget: string, patttern: ['^<.*>$', "Must be a valid Meta Tag"]}
-          
+            collapsed: true
+            fields:
+              - { label: Name, name: text, widget: string }
+              - { label: Meta Code, name: meta_code, widget: string, patttern: ["^<.*>$", "Must be a valid Meta Tag"] }
