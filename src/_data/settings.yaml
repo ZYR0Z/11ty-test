@@ -2,3 +2,8 @@
 name: Neat Starter
 author: Surjith S M
 url: "https://surjithctly.in/"
+meta_tags:
+  - text: Google Font
+    meta_code: <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
+  - text: Google Font 2
+    meta_code: <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
