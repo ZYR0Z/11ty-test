@@ -72,6 +72,6 @@ collections:
             allow_add: true
             collapsed: true 
             fields: 
-            - { label: Name, name: text, widget: string},
-            - { label: Meta Code, name: meta_code, widget: string, patttern: ['^<.*>$', "Must be a valid Meta Tag"]}
+              - { label: Name, name: text, widget: string},
+              - { label: Meta Code, name: meta_code, widget: string, patttern: ['^<.*>$', "Must be a valid Meta Tag"]}
           
