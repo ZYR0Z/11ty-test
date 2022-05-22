@@ -1,15 +1,3 @@
-name: Zyroz Blog
+name: Zyroz
 author: Zyroz
 url: https://zyroz.studio
-meta_tags:
-  - text: Google Font
-    meta_code: <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap"
-      rel="stylesheet">
-  - text: Google Font 2
-    meta_code: <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap"
-      rel="stylesheet">
-  - text: "Test "
-    meta_code: <link rel="stylesheet" type="text/css"
-      href="/static/css/prism-tomorrow.css">
