@@ -1,10 +1,10 @@
 links:
+  - title: Posts
+    url: /blog/
+    desc: Read our most recent Blog Posts!
   - title: Home
     url: https://zyroz.studio
     desc: My Website were you can contact me!
   - title: Github
     url: https://github.com/ZYR0Z/
     desc: My Github page, if you are interested in my projects
-  - title: Posts
-    url: /blog/
-    desc: Read our most recent Blog Posts!
