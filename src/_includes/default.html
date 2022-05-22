@@ -10,16 +10,20 @@
     {% if description %}
       <meta name="description" content="{{description}}"/>
     {% endif %}
-    {% block head %}{% endblock %}
-    <link rel="stylesheet" type="text/css" href="/static/css/style.css"/>
-    {% if prism == true %}
-      <link rel="stylesheet" type="text/css" href="/static/css/prism-tomorrow.css">
-    {% endif %}
-    <!-- Meta Code Loop -->
+    
+    <!-- Meta Tags -->
     {% if settings.meta_tags %}
       {% for meta_code in settings.meta_tags %}
         {{meta_code}}
       {% endfor %}
+    {% endif %}
+    
+    {% block head %}{% endblock %}
+    
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css"/>
+    
+    {% if prism == true %}
+      <link rel="stylesheet" type="text/css" href="/static/css/prism-tomorrow.css">
     {% endif %}
   </head>
   <body>
