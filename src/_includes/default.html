@@ -15,6 +15,12 @@
     {% if prism == true %}
       <link rel="stylesheet" type="text/css" href="/static/css/prism-tomorrow.css">
     {% endif %}
+    <!-- Meta Code Loop -->
+    {% if settings.meta_tags%}
+      {% for meta_code in settings.meta_tags%}
+        {{meta_code}}
+      {% endfor%}
+    {% endif %}
   </head>
   <body>
     {% include "./partials/navbar.html" %}
